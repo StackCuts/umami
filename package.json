@@ -154,5 +154,27 @@
     "tsup": "^8.5.0",
     "tsx": "^4.19.0",
     "typescript": "^5.9.3"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "@swc/core",
+      "prisma",
+      "@prisma/client",
+      "@prisma/engines"
+    ]
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "@swc/core",
+      "prisma",
+      "@prisma/client",
+      "@prisma/engines"
+    ]
   }
+}
 }
